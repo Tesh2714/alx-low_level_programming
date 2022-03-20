@@ -1,16 +1,16 @@
 #include <stdio.h>
 /**
- *  * main - Entry point
- *   *
- *    * Return: Always 0 (Success)
- *     */
+ *  *main - function
+ *   *Return: 0
+ *    */
 int main(void)
 {
-		char alpha;
-
-		for (alpha = 'a'; alpha < 'z'; alpha++)
-			for (alpha = 'a'; alpha <= 'z'; alpha++)
-				putchar(alpha);
-		putchar('\n');
-		return (0);
-
+	char c = 'a';
+	while (c <= 'z')
+	{
+		putchar(c);
+		c++;
+	}
+	putchar('\n');
+	return(0);
+}
