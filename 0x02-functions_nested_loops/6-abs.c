@@ -5,9 +5,9 @@
  *    *
  *     * Return: the absolute value of an integer.
  *      */
-int _abs(int a)
+int _abs(int ab)
 {
-	if (a < 0)
-		a = a * -1;
-	return (a);
+		if (ab < 0)
+					ab = ab * -1;
+			return (ab);
 }
