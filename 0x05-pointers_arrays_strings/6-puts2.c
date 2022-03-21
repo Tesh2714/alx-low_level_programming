@@ -1,22 +1,40 @@
 #include "main.h"
 /**
- *  * puts2 - prints every other character of a string
- *   *
- *    * @str: the string to print
- *     *
- *      */
+ *  * puts2 - this function print only the even numbers.
+ *   * @str: is the principal parameter.
+ *    * Return: Always 0.
+ *     */
 void puts2(char *str)
 {
-		int i;
-			int j;
+		int i = 0;
 
-				for(i = 0 ; str[i] != '\0' ; i++)
-						for (i = 0 ; str[i] != '\0' ; i++)
-								{
-											;
-												}
-					for(j = 0 ; j < i ; j = j + 2)
-							for (j = 0 ; j < i ; j = j + 2)
-									{
-												_putchar(str[j]);
-													}
+			while (str[i] != 0)
+					{
+								if ((str[i] % 2) == 0)
+											if ((i % 2) == 0)
+															_putchar(str[i]);
+										i++;
+											}
+				_putchar('\n');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
