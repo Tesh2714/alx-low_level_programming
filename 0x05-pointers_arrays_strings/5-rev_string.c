@@ -1,27 +1,31 @@
-#include "main.h"
+#include "holberton.h"
 /**
- *  * rev_string - prints a string in reverse
- *   * @s: the used string to beb reversed
- *    * Return: 0
+ *  * rev_string - reverses a string
+ *   * @s: holi
+ *    *
  *     */
 void rev_string(char *s)
 {
-		int len, i, half;
-			char temp;
+		int i;
+			int j;
+				int temp;
+					int length;
 
-				for (len = 0; s[len] != '\0'; len++);
+						while (s[i] != 0)
+								{
+											i++;
+												}
 
-					for (len = 0; s[len] != '\0'; len++)
-							;
-						i = 0;
-							half = len/2;
-								half = len / 2;
+							length = i;
+								i = 0;
+									j = length - 1;
 
-									while (half--)
-											{
-														temp = s[len - i - 1];
-																s[len - i - 1] = s[i];
-																		s[i] = temp;
-																				i++;
-																					}
-
+										while (i < j)
+												{
+															temp = s[i];
+																	s[i] = s[j];
+																			s[j] = temp;
+																					i++;
+																							j--;
+																								}
+}
