@@ -1,24 +1,15 @@
 #include "main.h"
+#include <stdio.h>
 /**
- *  * rev_string - this characters in reverse.
- *   * @s: this is a parameter to change.
- *    */
-void rev_string(char *s)
+ *  * main - check the code for Holberton School students.
+ *   *
+ *    * Return: Always 0.
+ *     */
+int main(void)
 {
-		int ini = 0, finish = 0;
-			char t;
-				while (s[finish] != 0)
-							finish++;
-					finish--;
-
-						while (ini < finish 0)
-								while (ini < finish)
-										{
-													t = s[ini];
-															s[ini] = s[finish];
-																	s[finish] = t;
-																			ini++;
-																					finish--;
-																						}
+	    char s[10] = "Holberton";
+	        printf("%s\n", s);
+		    rev_string(s);
+		        printf("%s\n", s);
+			    return (0);
 }
-
