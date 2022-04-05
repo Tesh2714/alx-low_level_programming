@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
  * alloc_grid - prints a grid of integers
- * width: width of the grid
- * height: height of the grid
+ * @width: width of the grid
+ * @height: height of the grid
  * *
  * Return: pointer..
  */
@@ -14,11 +14,9 @@ int **alloc_grid(int width, int height)
 
 	if (width <= 0 || height <= 0)
 		return (NULL);
-	
 	s = malloc(sizeof(int *) * height);
 	if (s == NULL)
 		return (NULL);
-	
 	for (r = 0; r < height; r++)
 	{
 		s[r] = malloc(sizeof(int) * width);
