@@ -4,21 +4,23 @@
 
 /* betty style doc for function main goes there */
 /**
- *  * main - Entry point
- *   *
- *    * Return: Always 0 (Success)
- *     */
+ * main - Entry point
+ **
+ * Return: Always 0 (Success)
+ *
+ */
+
 int main(void)
 {
-		int i;
+	int i;
 
-			i = 48;
-				while  (i < 58)
-						{
-									putchar(i);
-											i++;
-												}
-					putchar('\n');
+	i = 48;
+	while  (i < 58)
+	{
+		putchar(i);
+		i++;
+	}
+	putchar('\n');
 
-						return (0);
+	return (0);
 }
