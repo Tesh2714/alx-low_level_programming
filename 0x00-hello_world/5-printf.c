@@ -1,9 +1,13 @@
+/*
+ * File : 5-printf.c
+ */
+
 #include <stdio.h>
 
-/**
-* main:Prints text exactly with proper grammar
-* Return:Always 0.
-*/
+/*
+ * main : print output with proper grammar, but the outcome is a piece of art
+ * Return - Always 0.
+ */
 
 int main(void)
 {
