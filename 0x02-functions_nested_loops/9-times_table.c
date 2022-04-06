@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- *  * times_table - prints the 9 times table
- *   *
- *    * Return: 9 times table
- *     */
+ * times_table - prints the 9 times table
+ * *
+ * Return: 9 times table
+ */
 void times_table(void)
 {
 	int a, b, mult;
@@ -16,7 +16,7 @@ void times_table(void)
 			if (mult <= 9)
 			{
 				if (b != 0)
-	 			{
+				{
 					_putchar(' ');
 				}
 				_putchar(mult + '0');
@@ -30,7 +30,7 @@ void times_table(void)
 			{
 				_putchar(',');
 				_putchar(' ');
-			}	
+			}
 			else
 			{
 				_putchar('\n');
