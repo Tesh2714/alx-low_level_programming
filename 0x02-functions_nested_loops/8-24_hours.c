@@ -1,11 +1,13 @@
 #include "main.h"
 
 /**
- *  *jack_bauer - function
- *   */
+ * jack_bauer - function
+ */
+
 void jack_bauer(void)
 {
 	int a, b, c, d;
+
 	for (a = 48; a < 50; a++)
 	{
 		{
