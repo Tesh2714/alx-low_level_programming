@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- *  * string_toupper - changes all lowercase letters of a string to uppercase
- *   * @s: string to be capitalized
- *    *
- *     * Return: returns new capitalized string
- *      */
+ * string_toupper - changes all lowercase letters of a string to uppercase
+ * @s: string to be capitalized
+ *
+ * Return: returns new capitalized string
+ */
 char *string_toupper(char *s)
 {
 	int i;
@@ -15,12 +15,12 @@ char *string_toupper(char *s)
 
 	while (*(s + i) != '\0')
 	{
-			if (*(s + i) >= 'a' && *(s + i) <= 'z')
-					{
-							*(s + i) = *(s + i)-32;
-								}
-				i++;
+		if (*(s + i) >= 'a' && *(s + i) <= 'z')
+		{
+			*(s + i) = *(s + i) - 32;
+		}
+		i++;
 	}
 
-		return (s);
+	return (s);
 }
