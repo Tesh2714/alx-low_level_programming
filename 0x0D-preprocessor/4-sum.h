@@ -1,6 +1,7 @@
-#ifndef FILE_SUM
-#define FILE_SUM
+#ifndef F_SUM
+#define F_SUM
 
-define SUM(X, Y) ((X) + (Y))
+#define SUM(X, Y)  ((X) + (Y))
+
 
 #endif
