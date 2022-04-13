@@ -1,8 +1,5 @@
 #ifndef FUN_POINTER
 #define FUN_POINTER
-/**
- * header file
- */
 
 int _putchar(char c);
 void print_name(char *name, void (*f)(char *));
