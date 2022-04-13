@@ -1,6 +1,6 @@
 #include <stddef.h>
-#ifndef FUN_POINTER 
-#include "function_pointers.h" 
+#ifndef FUN_POINTER
+#include "function_pointers.h"
 #endif
 /**
  * print_name - print a name using pointer function
