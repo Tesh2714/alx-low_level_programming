@@ -1,4 +1,7 @@
+#include <stddef.h>
+#ifndef FUN_INDEX
 #include "function_pointers.h"
+#endif
 
 /**
  * int_index - find for an integer in an array of integers.
