@@ -1,4 +1,7 @@
-#include "function_pointers.h"
+#include <stddef.h>                                                                                                                   
+#ifndef FUN_POINTER                                                                                                                   
+#include "function_pointers.h"                                                                                                        
+#endif
 
 /**
  * array_iterator - iterature function on each element of an array.
