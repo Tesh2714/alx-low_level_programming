@@ -11,12 +11,6 @@ void parseSpace(char* str, char** parsed)
 			break;
 		if (strlen(parsed[i]) == 0)
 			i--;
-		if (i > 0) 
-		{
-			printf("\n Error: No Arguments will be passed to programs.\n");
-			exit(0);
-			
-		}	
  	}
  	
 }
